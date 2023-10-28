@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.555" x2="0.912" y2="0.309" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7c3cdc"/>
+      <stop offset="0.506" stop-color="#365ef3"/>
+      <stop offset="1" stop-color="#16f9b2"/>
+    </linearGradient>
+  </defs>
+  <g id="_3" data-name="3" transform="translate(0 -0.333)">
+    <path id="Path_23" data-name="Path 23" d="M39.1,9.3H33.667a6.627,6.627,0,0,0-12.985,0H2v2.65H20.682a6.627,6.627,0,0,0,12.985,0H39.1ZM27.175,14.6A3.9,3.9,0,0,1,23.2,10.625a3.975,3.975,0,1,1,7.95,0A3.9,3.9,0,0,1,27.175,14.6Z" transform="translate(0.65 1.233)" fill="url(#linear-gradient)"/>
+    <path id="Path_24" data-name="Path 24" d="M2,25.95H7.432a6.627,6.627,0,0,0,12.985,0H39.1V23.3H20.417a6.627,6.627,0,0,0-12.985,0H2Zm11.925-5.3a3.975,3.975,0,0,1,0,7.95,3.975,3.975,0,1,1,0-7.95Z" transform="translate(0.65 5.783)" fill="url(#linear-gradient)"/>
+    <rect id="_Transparent_Rectangle_" width="42" height="42" transform="translate(0 0.333)" fill="none"/>
+  </g>
+</svg>

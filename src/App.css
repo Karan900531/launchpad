@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.login_text .input-group-text
+{
+background-color: transparent !important;
+border:none !important;
+}
+#sidebar .sidebar_ul
+{
+  max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+.no_data_text
+{
+  text-align: center;
+  color:#fff;
+}
+
+.light_theme .no_data_text
+
+{
+  color:#000 !important;
+}
+
+.badge_trend
+{
+  position: absolute !important;
+    top: -4px;
+    right: 0px;
+    padding-top: 9px !important;
+    background-image: linear-gradient(90deg, #5957ef,#1d97e0,#18e5bc) !important;
+}
+.badge_trend_detail
+{ position: absolute !important;
+  top: -15px;
+  right: -3px;
+  padding-top: 6px !important;
+  background-image: linear-gradient(90deg, #5957ef,#1d97e0,#18e5bc) !important;
+
+}
+.badge-kyc-rect.badge_trend
+{
+  padding-top: 9px !important;
+
+}
+.badge-kyc-rect.badge_trend_detail
+{
+  padding-top: 6px !important;
+
+}
+
+.conta_toppols .badge-kyc-rect.badge_trend
+{
+padding-right: 15px !important;
+}
+
+.loading.blk_lkevl_stripe
+{
+  display: block !important;
+}
+
+.stripe {
+  min-height: 10px;
+  background-color: #babbbc;
+  display: inline-block;
+}
+
+.small-stripe {
+  width: 40%;
+}
+
+.medium-stripe {
+  width: 70%;
+}
+
+.long-stripe {
+  width: 100%;
+}
+.loading 
+{
+  min-width: 100px;
+  display: inline;
+}
+ .loading .stripe {
+  animation: hintloading 2s ease-in-out 0s infinite reverse;
+  -webkit-animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+
+@keyframes hintloading
+{
+  0% {
+    opacity: 0.5;
+  }
+  50%  {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes hintloading
+{
+  0% {
+    opacity: 0.5;
+  }
+  50%  {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
